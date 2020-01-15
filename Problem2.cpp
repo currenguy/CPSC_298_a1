@@ -34,4 +34,5 @@ int main()
     cout << endl << "LEGAL CAPACITY EXCEEDED." << endl;
     cout << "Exclude " << (numPeople - maxCapacity) << " people.\n\n";
   }
+  return 0;
 }
