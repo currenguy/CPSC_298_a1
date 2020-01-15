@@ -1,9 +1,21 @@
-# Assignment 1
+# Assignment 1: The Basics
 
-Curren Taber
-Student ID: 002325149
+## 1. IDENTIFYING INFORMATION
+- Full Name: Curren Taber
+- Student ID: 002325149
+- Chapman Email: ctaber@chapman.edu
+- Course Number and Section: CPSC 298-01
+- Assignment 1: The Basics
 
-This is the first assignment.
+## 2. LIST OF ALL SOURCE FILES SUBMITTED FOR THIS ASSIGNMENT
+- README.md
+- Problem1.cpp
+- Problem2.cpp
+- Problem3.cpp
+- Problem4.cpp
 
-Resources:
-- zyBooks Introduction to C++
+## 3. ERRORS OR LIMITATIONS
+- NONE
+
+## 4. REFERENCES
+- zyBooks: Introduction to C++
