@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 
-/* This program reads console input for the weight of one package of cereal
+/*
+ * This program reads console input for the weight of one package of cereal
  * (in ounces), outputting the weight in metric tons and the number of boxes
  * needed for one metric ton of cereal.
 */
 
-int main()
+int main(int argc, char **argv)
 {
   //Initialize variables
   const double OUNCES_PER_TON = 35273.92; //Number of ounces in 1 Ton
@@ -25,7 +26,7 @@ int main()
   //Output
   cout << endl << "--------------------------" << endl << endl;
   cout << "Weight in Tons: " << weightTons << endl;
-  cout << "Boxes needed for 1 Ton: " << numBoxes << endl;
+  cout << "Boxes needed for 1 Ton: " << static_cast<int>(numBoxes) << endl;
   cout << endl;
 
   return 0;

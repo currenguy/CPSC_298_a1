@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 
-/* This program reads console input for max capacity of a room, as well as
+/*
+ * This program reads console input for max capacity of a room, as well as
  * the number of people attending. It then decides if the legal capacity is
  * met. Then, it says the number of people that must leave or may attend.
 */
 
-int main()
+int main(int argc, char **argv)
 {
   //Initialize variables
   int maxCapacity = -1;

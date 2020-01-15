@@ -9,13 +9,14 @@
 
 ## 2. SOURCE FILES
 - README.md
-- Problem1.cpp
-- Problem2.cpp
-- Problem3.cpp
-- Problem4.cpp
+- ProblemCereal.cpp
+- ProblemFireCapacity.cpp
+- ProblemEmployeePay.cpp
+- ProblemInflation.cpp
 
 ## 3. ERRORS OR LIMITATIONS
 - NONE
 
 ## 4. REFERENCES
 - zyBooks: Introduction to C++
+- http://www.cplusplus.com/forum/beginner/21161/
