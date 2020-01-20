@@ -19,4 +19,3 @@
 
 ## 4. REFERENCES
 - zyBooks: Introduction to C++
-- http://www.cplusplus.com/forum/beginner/21161/
