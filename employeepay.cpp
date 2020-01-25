@@ -48,7 +48,7 @@ int main(int argc, char **argv)
   netPay -= INSURANCE_DEDUCTION;
 
   //Outputs pay statement
-  cout << endl << endl << endl;
+  cout << endl << "--------------------------" << endl << endl;
   cout << "GROSS PAY BEFORE DEDUCTIONS: $" << grossPay << endl << endl;
   cout << "SOCIAL SECURITY DEDUCTION: -$" << socialSecurityTax << endl;
   cout << "FEDERAL INCOME TAX DEDUCTION: -$" << federalIncomeTax << endl;

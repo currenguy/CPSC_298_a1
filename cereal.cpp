@@ -26,7 +26,7 @@ int main(int argc, char **argv)
   //Output
   cout << endl << "--------------------------" << endl << endl;
   cout << "Weight in Tons: " << weightTons << endl;
-  cout << "Boxes needed for 1 Ton: " << static_cast<int>(numBoxes) << endl;
+  cout << "Boxes needed for 1 Ton: " << numBoxes << endl;
   cout << endl;
 
   return 0;

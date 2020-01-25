@@ -5,7 +5,7 @@ using namespace std;
  * This program reads console input for max capacity of a room, as well as
  * the number of people attending. It then decides if the legal capacity is
  * met. Then, it says the number of people that must leave or may attend.
-*/
+ */
 
 int main(int argc, char **argv)
 {
@@ -27,12 +27,14 @@ int main(int argc, char **argv)
   //Prints message based on capacity
   if (safe == true)
   {
-    cout << endl << "LEGAL CAPACITY MET." << endl;
+    cout << endl << "--------------------------" << endl << endl;
+    cout << "LEGAL CAPACITY MET." << endl;
     cout << (maxCapacity - numPeople) << " more people may attend.\n\n";
   }
   else
   {
-    cout << endl << "LEGAL CAPACITY EXCEEDED." << endl;
+    cout << endl << "--------------------------" << endl << endl;
+    cout << "LEGAL CAPACITY EXCEEDED." << endl;
     cout << "Exclude " << (numPeople - maxCapacity) << " people.\n\n";
   }
   return 0;
