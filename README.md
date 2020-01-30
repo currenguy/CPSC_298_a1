@@ -9,10 +9,10 @@
 
 ## 2. SOURCE FILES
 - README.md
-- ProblemCereal.cpp
-- ProblemFireCapacity.cpp
-- ProblemEmployeePay.cpp
-- ProblemInflation.cpp
+- cereal.cpp
+- firecapacity.cpp
+- employeepay.cpp
+- inflation.cpp
 
 ## 3. ERRORS OR LIMITATIONS
 - NONE
