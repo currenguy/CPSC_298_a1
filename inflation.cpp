@@ -38,9 +38,9 @@ int main(int argc, char **argv)
   }
 
   //Outputs result
+  cout << setprecision(2) << fixed;
   cout << endl << "--------------------------" << endl << endl;
-  cout << "Cost before inflation: $" << setprecision(2) << fixed << oldCost;
-  cout << endl;
+  cout << "Cost before inflation: $" << oldCost << endl;
   cout << "Cost after inflation: $" << newCost << endl << endl;
 
   return 0;
