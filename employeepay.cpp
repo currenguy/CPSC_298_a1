@@ -1,4 +1,6 @@
 #include <iostream>
+#include <ios>
+#include <iomanip>
 using namespace std;
 
 /*
@@ -48,6 +50,7 @@ int main(int argc, char **argv)
   netPay -= INSURANCE_DEDUCTION;
 
   //Outputs pay statement
+  cout << setprecision(2) << fixed;
   cout << endl << "--------------------------" << endl << endl;
   cout << "GROSS PAY BEFORE DEDUCTIONS: $" << grossPay << endl << endl;
   cout << "SOCIAL SECURITY DEDUCTION: -$" << socialSecurityTax << endl;

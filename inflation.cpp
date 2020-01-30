@@ -1,4 +1,6 @@
 #include <iostream>
+#include <ios>
+#include <iomanip>
 using namespace std;
 
 /* This problem reads user input for an item's cost, the year of purchase,
@@ -37,7 +39,8 @@ int main(int argc, char **argv)
 
   //Outputs result
   cout << endl << "--------------------------" << endl << endl;
-  cout << "Cost before inflation: $" << oldCost << endl;
+  cout << "Cost before inflation: $" << setprecision(2) << fixed << oldCost;
+  cout << endl;
   cout << "Cost after inflation: $" << newCost << endl << endl;
 
   return 0;
